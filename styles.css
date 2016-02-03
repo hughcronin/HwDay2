@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+.octodex{
+  border: .25px solid grey;
+}
+.octocat img{
+  border: .25px solid grey;
+}
+.octocat {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  padding: 7px 7px 7px 7px;
+}
+.octocat img{
+  width: 100%;
+}
+.image-caption{
+  display: inline-block;
+  width: 80%;
+}
+.image-number{
+  display: inline-block;
+  width:10%;
+  float:left;
+}
+ul.authors {
+  display: inline-block;
+}
+.authors li {
+  display: inline-block;
+}
+.octocat .authors img {
+  width: 10%;
+}
+.authors img{
+  float: right;
+}
+body > ul > li:nth-child(1) > div > div > ul > li > a > img{
+  border:none;
+}
+body > ul > li:nth-child(2) > div > div > ul > li > a:nth-child(1) > img{
+  border:none;
+}
+body > ul > li:nth-child(2) > div > div > ul > li > a:nth-child(2) > img{
+  border:none;
+}
+body > ul > li:nth-child(3) > div > div > ul > li > a > img{
+  border:none;
+}
+.image-caption {
+  align-items: flex-start;
+}
